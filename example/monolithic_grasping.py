@@ -1,4 +1,3 @@
-#NAO可以順利抓取任何物體 但行走有點遲緩 不夠順暢
 from controller import Robot, Camera, PositionSensor, Motion
 from ultralytics import YOLO
 import cv2
@@ -518,7 +517,7 @@ class Nao(Robot):
             self.set_angles(right_trajectory[i], "right")
             self.step(self.timestep)
         print("Object lifted by 5 cm")
-#版本2# 修改後的 run 方法
+        
     def run(self) -> None:
         print("Starting NAO robot system for grasping with feedback control")
 
@@ -656,6 +655,6 @@ class Nao(Robot):
         print("NAO robot system stopped")
 
 if __name__ == "__main__":
-    model_path = "F:/專題資料紀錄/12042/my_project123_1125/yolov8/yolov8/yaml/exp__yolov8_train11265/weights/best.pt"
+    model_path = ".../yolov8/yolov8/yaml/exp__yolov8_train11265/weights/best.pt"
     robot = Nao(model_path)
     robot.run()
