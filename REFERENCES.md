@@ -1,0 +1,2 @@
+1. Target Localization and Grasping of NAO Robot Based on YOLOv8NetworkandMonocular Ranging: Yingrui Jin, Zhaoyuan Shi, Xinlong Xu, Guang Wu, Hengyi Li and Shengjun Wen
+2. An Improved Performance of the Designed Robotic Motion Control for NAO Robot Arms Using Hybrid Neural Network-Jacobian, Article in International Journal of Intelligent Engineering and Systems · September 2023, DOI: 10.22266/ijies2023.1031.45
